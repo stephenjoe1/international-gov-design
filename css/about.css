@@ -1,0 +1,23 @@
+@import url('main.css');
+
+* {
+	box-sizing:border-box;
+}
+
+
+/* utils */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+
+
