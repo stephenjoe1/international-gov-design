@@ -25,12 +25,13 @@
 }
 
 body {
-	font-family: 'CooperHewitt', Helvetica neue, Helvetica, sans-serif;
+	font-family: /*'CooperHewitt'*/ Helvetica neue, Helvetica, sans-serif;
 	font-size: 19px;
 	color: #292c67;
 	line-height: 1.4;
 	margin: 0;
 	font-weight: 500;
+	background: #47f5a7;
 }
 
 .column-third {
@@ -60,12 +61,54 @@ h3 {
 	margin-top: 10px;
 }
 
+/*header area */
+
 .section-header {
 	background: #47f5a7;
 	margin-top: 0px;
 	display: block;
-	padding-bottom: 30px;
+	height: 500px;
 }
+
+.section-body-top {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 15px 15px 15px;
+}
+
+.heading-top-section {
+	max-width: 45%;
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.section-top-image {
+	max-width: 40%;
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 30px;
+	float: right;
+}
+
+.section-top-image img {
+	max-width: 100%;
+	z-index: -1;
+	margin-top: 30px;
+}
+
+
+.heading-top { 
+	color: #000;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 70px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 90px;
+}
+
+/*ends*/
 
 .section-upcoming {
 	/*background-color: black;*/
@@ -96,33 +139,6 @@ h3 {
 	margin-top: 180px;
 }
 
-
-.section-body-top {
-	max-width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 15px 0px 15px 0px;
-}
-
-.heading-top-section {
-	max-width: 45%;
-	display: inline-block;
-	z-index: 1;
-	margin-right: 60px;
-}
-
-.section-top-image {
-	max-width: 40%;
-	display: inline-block;
-	margin-left: 30px;
-	padding-top: 30px;
-}
-
-.section-top-image img {
-	max-width: 100%;
-	z-index: -1;
-	margin-top: 30px;
-}
 
 .section-body {
 	margin-top: 15px;
@@ -183,15 +199,6 @@ iframe {
 	color: #ffc322;
    -webkit-text-stroke: 1px #ffc322;
    margin-right: 5px;
-}
-
-
-.heading-top { 
-	color: #000;
-	font-weight: bold;
-	font-size: 64px;
-	font-weight: 700;
-	margin-bottom: 10px;
 }
 
 .heading-upcoming { 
@@ -374,7 +381,7 @@ iframe {
 	font-weight: normal;
 	font-size: 19px;
 	font-weight: 500;
-	color: #292c67;
+	color: #000;
 }
 
 .small-text a { 
