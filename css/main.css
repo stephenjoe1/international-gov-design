@@ -2,35 +2,25 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+} 
 
 @font-face {
-  font-family: 'CooperHewitt';
-  src: url('fonts/CooperHewitt-Bold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/CooperHewitt-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/CooperHewitt-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
-  font-weight: 700;
+  font-family: 'Dia Black';
+  src: url('fonts/Dia Black.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Dia Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Dia Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Dia Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 900;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'CooperHewitt';
-  src: url('fonts/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
-  src: url('fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/CooperHewitt-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/CooperHewitt-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
-  font-weight: 500;
-  font-style: normal;
-}
-
+ 
 body {
-	font-family: /*'CooperHewitt'*/ /*Dia, */ Helvetica neue, Helvetica, sans-serif;
+	font-family: Helvetica neue, Helvetica, sans-serif;
 	font-size: 19px;
 	color: #292c67;
 	line-height: 1.4;
 	margin: 0;
-	font-weight: 900;
+	font-weight: 700;
 	background: #47f5a7;
 }
 
@@ -103,11 +93,12 @@ h3 {
 
 .heading-top { 
 	color: #000;
-	font-size: 80px;
+	font-size: 64px;
 	letter-spacing: 0px;
-	line-height: 80px;
+	line-height: 70px;
 	margin-bottom: 10px;
 	margin-top: 75px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 /*ends*/
@@ -153,6 +144,7 @@ h3 {
 
 .large-type {
 	font-size: 32px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 .intro-body-copy {
@@ -195,6 +187,7 @@ h3 {
 	font-size: 24px;
 	line-height: 30px;
 	max-width: 70%;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 .intro-body-copy-2 h4 {
@@ -202,6 +195,7 @@ h3 {
 	line-height: 30px;
 	max-width: 70%;
 	margin-bottom: 5px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 .intro-body-copy-2 table td {
@@ -262,6 +256,7 @@ h3 {
 	margin-top: 15px;
 	color: #000;
 	margin-bottom: 5px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 .intro-body-copy h2 {
@@ -269,13 +264,28 @@ h3 {
 	margin-top: 15px;
 	color: #000;
 	margin-bottom: 5px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
+
+.intro-body-copy-2 h2 {
+	font-size: 36px;
+	margin-top: 15px;
+	color: #000;
+	margin-bottom: 5px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
+
+.small-type {
+	font-size: 16px!important;
+	margin-top: 5px;
 }
 
 .section-body-copy .big-date {
-	font-size: 80px;
-	line-height: 90px;
+	font-size: 72px;
+	line-height: 80px;
 	margin-top: 8px;
 	margin-bottom: 30px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 .slash {
@@ -308,6 +318,16 @@ iframe {
 	margin-top: 60px;
 	display: block;
 	border-top: 1px solid #BFC1C3;
+	color: #000;
+}
+
+.section-footer  a { 
+	color: #292c67;
+	text-decoration: underline; 
+}
+
+.section-footer  a:hover { 
+	color: #2F4F4F;
 }
 
 .bottom-contacts {
@@ -374,6 +394,7 @@ iframe {
 	line-height: 80px;
 	margin-top: 8px;
 	margin-bottom: 60px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
 /*//intro//*/
