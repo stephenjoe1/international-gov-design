@@ -532,9 +532,8 @@ iframe {
 
 .section-footer {
 	background-color: #000;
-	margin-top: 60px;
 	display: block;
-	border-top: 1px solid #BFC1C3;
+	border-top: 10px solid #47f5a7;
 	color: #f8f8f8;
 }
 
