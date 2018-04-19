@@ -21,7 +21,6 @@ body {
 	line-height: 1.4;
 	margin: 0;
 	font-weight: 700;
-	background: #47f5a7;
 }
 
 .column-third {
@@ -118,7 +117,7 @@ h3 {
 }
 
 .section-body-grey a:hover {
-	color: #2B8CC4;
+	color: #000;
 }
 
 .section-body-grey a:active {
@@ -140,7 +139,7 @@ h3 {
 }
 
 .section-body a:hover {
-	color: #2B8CC4;
+	color: #000;
 }
 
 .section-body a:active {
