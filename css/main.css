@@ -121,6 +121,11 @@ h3 {
 	color: #2B8CC4;
 }
 
+.section-body-grey a:active {
+	color: #000;
+	background-color: yellow;
+}
+
 .section-body {
 	background-color: #F8F8F8;
 	margin-top: 0px;
@@ -138,6 +143,11 @@ h3 {
 	color: #2B8CC4;
 }
 
+.section-body a:active {
+	color: #000;
+	background-color: yellow;
+}
+
 .section-body-black {
 	background-color: #000;
 	margin-top: 0px;
@@ -150,6 +160,10 @@ h3 {
 
 .section-body-black a {
 	color: #fff;
+}
+
+.section-body-black a:active {
+	background-color: yellow;
 }
 
 .section-body-green {
