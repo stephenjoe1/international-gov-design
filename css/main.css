@@ -23,6 +23,10 @@ body {
 	font-weight: 700;
 }
 
+.font-bold {
+	font-weight: 700;
+}
+
 .column-third {
 	width: 31%;
 	margin-right:15px;
@@ -500,6 +504,13 @@ h3 {
 .small-type {
 	font-size: 16px!important;
 	margin-top: 5px;
+}
+
+.small-type-2 {
+	font-size: 16px!important;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 20px;
 }
 
 .section-body-copy .big-date {
