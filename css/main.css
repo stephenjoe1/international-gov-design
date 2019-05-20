@@ -62,7 +62,6 @@ h3 {
 	background: #47f5a7;
 	margin-top: 0px;
 	display: block;
-	height: 500px;
 	overflow: hidden;
 	padding-bottom: 30px;
 }
@@ -81,6 +80,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px 15px 15px 15px;
+	overflow: hidden;
 }
 
 .heading-top-section {
@@ -98,6 +98,20 @@ h3 {
 }
 
 .section-top-image img {
+	max-width: 100%;
+	z-index: -1;
+	margin-top: 30px;
+}
+
+.section-top-image-2 {
+	max-width: 50%;
+	display: inline-block;
+	margin-left: -5px;
+	padding-top: 10px;
+	float: left;
+}
+
+.section-top-image-2 img {
 	max-width: 100%;
 	z-index: -1;
 	margin-top: 30px;
@@ -823,6 +837,14 @@ h2 {
 	font-size: 24px;
 }
 
+.section-body-blue h1 {
+	margin-top: 10px;
+}
+
+.section-body-top h1 {
+	margin-top: 10px;
+}
+
 .heading-top { 
 	margin-top: 30px;
 }
@@ -934,6 +956,7 @@ h2 {
 	padding: 8px 15px 10px 0;
 	font-size: 16px;
 }
+
 
 
 
