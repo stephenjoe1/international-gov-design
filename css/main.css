@@ -154,7 +154,7 @@ h2 .small-h2-class {
 	display: block;
 	padding-bottom: 30px;
 	overflow: hidden;
-	border-bottom: 1px solid #000;
+	border-bottom: 10px solid #000;
 }
 
 .section-body-grey a {
@@ -177,6 +177,7 @@ h2 .small-h2-class {
 	display: block;
 	padding-bottom: 5px;
 	overflow: hidden;
+	border-bottom: 10px solid #000;
 }
 
 .section-body a {
@@ -656,7 +657,7 @@ iframe {
 .section-footer {
 	background-color: #000;
 	display: block;
-	border-top: 10px solid #47f5a7;
+	border-top: 10px solid #000;
 	color: #f8f8f8;
 }
 
