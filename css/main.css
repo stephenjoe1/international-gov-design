@@ -17,7 +17,7 @@
 body {
 	font-family: Helvetica neue, Helvetica, sans-serif;
 	font-size: 19px;
-	color: #292c67;
+	color: #000;
 	line-height: 1.4;
 	margin: 0;
 	font-weight: 700;
@@ -67,8 +67,17 @@ h3 {
 	padding-bottom: 30px;
 }
 
+.section-header-2 {
+	background: #fff;
+	margin-top: 0px;
+	display: block;
+	height: 280px;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
 .section-body-top {
-	max-width: 1200px;
+	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px 15px 15px 15px;
@@ -95,11 +104,43 @@ h3 {
 }
 
 
+
+
 .heading-top { 
 	color: #000;
 	font-size: 80px;
 	letter-spacing: 0px;
 	line-height: 80px;
+	margin-bottom: 10px;
+	margin-top: 45px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
+
+.heading-top-small { 
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-top: 45px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
+
+h2 .h2-class { 
+	color: #000;
+	font-size: 80px;
+	letter-spacing: 0px;
+	line-height: 80px;
+	margin-bottom: 10px;
+	margin-top: 75px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
+
+h2 .small-h2-class { 
+	color: #000;
+	font-size: 36px;
+	letter-spacing: 0px;
+	line-height: 36px;
 	margin-bottom: 10px;
 	margin-top: 75px;
 	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
@@ -111,8 +152,9 @@ h3 {
 	background-color: #f8f8f8;
 	margin-top: 0px;
 	display: block;
-	padding-bottom: 5px;
+	padding-bottom: 30px;
 	overflow: hidden;
+	border-bottom: 1px solid #000;
 }
 
 .section-body-grey a {
@@ -130,7 +172,7 @@ h3 {
 }
 
 .section-body {
-	background-color: #F8F8F8;
+	background-color: #FFF;
 	margin-top: 0px;
 	display: block;
 	padding-bottom: 5px;
@@ -168,6 +210,45 @@ h3 {
 .section-body-black a:active {
 	background-color: yellow;
 }
+
+
+.section-body-blue {
+	background-color: #0d66b0;
+	margin-top: 0px;
+	color: #47f5a7;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.section-body-blue a {
+	color: #fff;
+}
+
+.section-body-blue a:active {
+	background-color: yellow;
+}
+
+.section-body-blue h1 {
+	color: #fff;
+}
+
+.section-body-blue h1 a {
+	text-decoration: none;
+}
+
+.section-body-blue h1 a:hover {
+	color: black;
+}
+
+
+
+.section-body-blue h2 {
+	color: #fff;
+}
+
+
 
 .section-body-green {
 	background-color: #47f5a7;
@@ -502,6 +583,14 @@ h3 {
 }
 
 .intro-body-copy h2 {
+	font-size: 36px;
+	margin-top: 15px;
+	color: #000;
+	margin-bottom: 5px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
+
+.intro-body-copy h2 .small-h2-class {
 	font-size: 36px;
 	margin-top: 15px;
 	color: #000;
