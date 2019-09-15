@@ -140,6 +140,16 @@ h3 {
 	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
 }
 
+.heading-top-small a { 
+	color: #000;
+	text-decoration: none;
+}
+
+.heading-top-small a:hover { 
+	color: #000;
+	text-decoration: underline;
+}
+
 h2 .h2-class { 
 	color: #000;
 	font-size: 80px;
@@ -428,6 +438,10 @@ h2 .small-h2-class {
 	line-height: 24px;
 	max-width: 70%;
 	font-weight: 400;
+}
+
+.body-copy-black a:hover {
+	color: yellow;
 }
 
 .body-copy-black h2 {
