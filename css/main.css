@@ -906,6 +906,10 @@ h2 {
 	max-width: 90%;
 }
 
+.body-copy-black p {
+	max-width: 90%;
+}
+
 
 
 .heading-top { 
@@ -916,6 +920,10 @@ h2 {
 .heading-upcoming { 
 	font-size: 36px;
 	line-height: 42px;
+}
+
+.heading-top-section {
+	max-width: 90%;
 }
 
 
