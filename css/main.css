@@ -268,12 +268,44 @@ h2 .small-h2-class {
 }
 
 
-
 .section-body-blue h2 {
 	color: #fff;
 }
 
+ .section-body-purple {
+	background-color: #6B4DC4;
+	margin-top: 0px;
+	color: #6B4DC4;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
 
+.section-body-purple a {
+	color: #fff;
+}
+
+.section-body-purple a:active {
+	background-color: yellow;
+}
+
+.section-body-purple h1 {
+	color: #fff;
+}
+
+.section-body-purple h1 a {
+	text-decoration: none;
+}
+
+.section-body-purple h1 a:hover {
+	color: black;
+}
+
+
+.section-body-purple h2 {
+	color: #fff;
+}
 
 .section-body-green {
 	background-color: #47f5a7;
