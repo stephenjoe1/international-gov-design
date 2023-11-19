@@ -16,23 +16,16 @@
 		<meta property="og:image:height" content="1500">
 	</head>
 
- <script>
+<script>
     function displayLocalTime() {
       // Set a specific UTC time (11:00 am UTC)
-      var utcTime = new Date(Date.UTC(new Date().getFullYear(), new Date().getMonth(), new Date().getDate(), 11, 0, 0));
+      var utcTime = new Date(Date.UTC(new Date().getFullYear(), new Date().getMonth(), new Date().getDate(), 22, 0, 0));
 
       // Convert UTC time to local time
-      var localTime = new Date(utcTime.getTime() + utcTime.getTimezoneOffset() * 60000);
+      var localTime = new Date(utcTime.toLocaleString());
 
-      // Get the hour and minutes
-      var hours = localTime.getHours();
-      var minutes = localTime.getMinutes();
-
-      // Format the time
-      var formattedTime = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
-
-      // Display the formatted time
-      document.getElementById('localTimeNZ').innerHTML = formattedTime;
+      // Display the local time in the user's format
+      document.getElementById('localTimeNZ').innerHTML = localTime.toLocaleTimeString();
     }
 
     // Call the function when the page loads
