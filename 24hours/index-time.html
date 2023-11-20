@@ -18,8 +18,8 @@
 
   <script>
     function displayLocalTime() {
-      // Set a specific date and time (2023/11/29 11:00 am UTC)
-      var utcTime = new Date(Date.UTC(2023, 10, 29, 11, 0, 0)); // Note: Months are zero-based (10 represents November)
+      // Set a specific date and time (2023/11/29 22:00 pm UTC)
+      var utcTime = new Date(Date.UTC(2023, 10, 29, 22, 0, 0)); // Note: Months are zero-based (10 represents November)
 
       // Convert UTC time to local time
       var localTime = new Date(utcTime.getTime() + utcTime.getTimezoneOffset() * 60000);
