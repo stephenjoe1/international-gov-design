@@ -450,6 +450,11 @@ h2 .small-h2-class {
 	padding-right: 10px;
 }
 
+.column-one {
+	width: 150px;
+	padding-right: 10px;
+}
+
 .intro-body-copy-2 ul {
 	list-style: none;
 	padding-left: 0px;
