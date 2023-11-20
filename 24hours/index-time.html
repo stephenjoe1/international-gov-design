@@ -18,21 +18,26 @@
 
   <script>
     function displayLocalTime() {
-      // Set a specific date and time (2023/11/29 11:00 pm UTC)
-      var utcTime = new Date(Date.UTC(2023, 10, 29, 22, 0, 0)); // Note: Months are zero-based (10 represents November)
+      // Set a specific date and time (2023/11/29 11:00 am UTC)
+      var utcTime = new Date(Date.UTC(2023, 10, 29, 11, 0, 0)); // Note: Months are zero-based (10 represents November)
 
       // Convert UTC time to local time
       var localTime = new Date(utcTime.getTime() + utcTime.getTimezoneOffset() * 60000);
 
-      // Get the hour and minutes
+      // Get the hour, minutes, and AM/PM
       var hours = localTime.getHours();
       var minutes = localTime.getMinutes();
+      var amOrPm = hours >= 12 ? 'PM' : 'AM';
 
-      // Format the time in 24-hour clock format
-      var formattedTime = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
+      // Convert to 12-hour format
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Handle midnight (0 hours)
+
+      // Format the time
+      var formattedTime = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0') + ' ' + amOrPm;
 
       // Display the formatted time
-      document.getElementById('localTimeNZ').innerHTML = formattedTime;
+      document.getElementById('localTime').innerHTML = formattedTime;
     }
 
     // Call the function when the page loads
