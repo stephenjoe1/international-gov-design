@@ -15,6 +15,24 @@
 		<meta property="og:image:width" content="2865">
 		<meta property="og:image:height" content="1500">
 		<link rel="shortcut icon" sizes="16x16 32x32 48x48" href="assets/favicon.ico" type="image/x-icon">
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				document.querySelectorAll("time").forEach((element) => {
+					const utcDateTime = element.getAttribute("datetime");
+
+					const date = new Date(utcDateTime);
+					const shortTime = new Intl.DateTimeFormat([], { hour: "numeric", minute: "numeric", timeZoneName: "short" }).format(date)
+
+					let formattedText = shortTime;
+					const day = date.getDate();
+					if (day !== 29) {
+						formattedText += ` (${day} November)`;
+					}
+
+					element.innerText = formattedText;
+				});
+			});
+		</script>
 	</head>
 <body>
 	<div class="section-body-purple">
@@ -73,180 +91,180 @@
 
 
 				<h3><span class="highlight">29 November</span></h3>
-				<p>All session times are displayed as Coordinated Universal Time (UTC) for now. You can <a href="https://time.is/UTC">convert your local time to UTC with a time zone converter</a>.<br><br>Some sessions may start on 28 November* or 30 November, depending on your time zone.<br><br>This page will display your local time shortly. Please recheck this page in the next few hours.</p>
+				<p>Some sessions may start on 28 November or 30 November, depending on your time zone.</p>
 				<table>
 				  <tbody>
 
 				    <tr>
-				      <td class="column-one">UTC 22:00*</td>
+				      <td class="column-one"><time datetime="2023-11-28T22:00:00+00:00">UTC 22:00 (28 November)</time></td>
 				      <td>New Zealand 🇳🇿</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 23:00*</td>
+				      <td><time datetime="2023-11-28T23:00:00+00:00">UTC 23:00 (28 November)</time></td>
 				      <td>Australia 🇦🇺</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 00:00</td>
+				      <td><time datetime="2023-11-29T00:00:00+00:00">UTC 00:00</time></td>
 				      <td>Japan 🇯🇵</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 01:00</td>
+				      <td><time datetime="2023-11-29T01:00:00+00:00">UTC 01:00</time></td>
 				      <td>Taiwan 🇹🇼</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 02:00</td>
+				      <td><time datetime="2023-11-29T02:00:00+00:00">UTC 02:00</time></td>
 				      <td>Singapore 🇸🇬</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 03:00</td>
+				      <td><time datetime="2023-11-29T03:00:00+00:00">UTC 03:00</time></td>
 				      <td>South Korea 🇰🇷</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 04:00</td>
+				      <td><time datetime="2023-11-29T04:00:00+00:00">UTC 04:00</time></td>
 				      <td>Indonesia 🇮🇩</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 05:00</td>
+				      <td><time datetime="2023-11-29T05:00:00+00:00">UTC 05:00</time></td>
 				      <td>(to be confirmed)</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 06:00</td>
+				      <td><time datetime="2023-11-29T06:00:00+00:00">UTC 06:00</time></td>
 				      <td>Georgia 🇬🇪</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 07:00</td>
+				      <td><time datetime="2023-11-29T07:00:00+00:00">UTC 07:00</time></td>
 				      <td>Rwanda 🇷🇼</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 08:00</td>
+				      <td><time datetime="2023-11-29T08:00:00+00:00">UTC 08:00</time></td>
 				      <td>Finland 🇫🇮</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 09:00</td>
+				      <td><time datetime="2023-11-29T09:00:00+00:00">UTC 09:00</time></td>
 				      <td>Ukraine 🇺🇦</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 10:00</td>
+				      <td><time datetime="2023-11-29T10:00:00+00:00">UTC 10:00</time></td>
 				      <td>Sweden 🇸🇪</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 11:00</td>
+				      <td><time datetime="2023-11-29T11:00:00+00:00">UTC 11:00</time></td>
 				      <td>Switzerland 🇨🇭</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 12:00</td>
+				      <td><time datetime="2023-11-29T12:00:00+00:00">UTC 12:00</time></td>
 				      <td>Italy 🇮🇹</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 13:00</td>
+				      <td><time datetime="2023-11-29T13:00:00+00:00">UTC 13:00</time></td>
 				      <td>Ireland 🇮🇪</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 14:00</td>
+				      <td><time datetime="2023-11-29T14:00:00+00:00">UTC 14:00</time></td>
 				      <td>Germany 🇩🇪</td>
 				    </tr>					  
 				    <tr>
-				      <td>UTC 15:00</td>
+				      <td><time datetime="2023-11-29T15:00:00+00:00">UTC 15:00</time></td>
 				      <td>France 🇫🇷</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 16:00</td>
+				      <td><time datetime="2023-11-29T16:00:00+00:00">UTC 16:00</time></td>
 				      <td>United Kingdom 🇬🇧</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 17:00</td>
+				      <td><time datetime="2023-11-29T17:00:00+00:00">UTC 17:00</time></td>
 				      <td>Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 18:00</td>
+				      <td><time datetime="2023-11-29T18:00:00+00:00">UTC 18:00</time></td>
 				      <td>Iceland 🇮🇸</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 19:00</td>
+				      <td><time datetime="2023-11-29T19:00:00+00:00">UTC 19:00</time></td>
 				      <td>Mexico 🇲🇽</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 20:00</td>
+				      <td><time datetime="2023-11-29T20:00:00+00:00">UTC 20:00</time></td>
 				      <td>Brazil 🇧🇷  + Chile 🇨🇱</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 21:00</td>
+				      <td><time datetime="2023-11-29T21:00:00+00:00">UTC 21:00</time></td>
 				      <td>Canada 🇨🇦</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 22:00</td>
+				      <td><time datetime="2023-11-29T22:00:00+00:00">UTC 22:00</time></td>
 				      <td>Chile 🇨🇱 + Peru 🇵🇪</td>
 				    </tr>
 				    <tr>
-				      <td>UTC 23:00</td>
+				      <td><time datetime="2023-11-29T23:00:00+00:00">UTC 23:00</time></td>
 				      <td>United States 🇺🇸</td>
 				    </tr>
 				  </tbody>
 				</table>
 
-				<h3 style="margin-top: 60px;">UTC 22:00&nbsp;•&nbsp;New Zealand 🇳🇿</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-28T22:00:00+00:00">UTC 22:00</time>&nbsp;•&nbsp;New Zealand 🇳🇿</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Meg Douglas Howie, Principal Service Designer, Te Whatu Ora Health New Zealand</p>
 
-				<h3 style="margin-top: 60px;">UTC 23:00&nbsp;•&nbsp;Australia 🇦🇺</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-28T23:00:00+00:00">UTC 23:00</time>&nbsp;•&nbsp;Australia 🇦🇺</h3>
 						<p><span class="font-bold">Digital care in disaster recovery</span><br>Australia has been ravaged by repeated natural and other disasters in the last few years. Residents often find themselves recounting their stories multiple times to different relief staff and government agencies in the aftermath of disasters. Service NSW has pioneered Digital Care Plans, offering a unified perspective on impacted residents’ needs that can be seamlessly shared with relevant parties.</p> <p class="small-type-2">Peter Lofgren, Head of Design, Service NSW</p>
 
 						<p><span class="font-bold">Re-thinking financial assistance with vouchers</span><br>Designers of Service NSW will walk through our vouchers product that supports New South Wales citizens and businesses​s.</p> <p class="small-type-2">Kayhla Scholte, Senior Product Designer, Service NSW & Sasha Leong, Content Designer, Service NSW</p>
 
 						<p><span class="font-bold">Pulling the curtain back: how we work in Digital at Service NSW</span><br>Find out what happens behind the scenes – how we go about creating digital services at Service NSW.</p> <p class="small-type-2">Georgos Papanastasiou, Director, Digital Capability & Performance, Service NSW</p>
 				
-				<h3 style="margin-top: 60px;">UTC 00:00&nbsp;•&nbsp;Japan 🇯🇵</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T00:00:00+00:00">UTC 00:00</time>&nbsp;•&nbsp;Japan 🇯🇵</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Takashi Asanuma, Vice-Minister for Digital Transformation, Chief Officer, Digital Agency</p>
 
 						<p><span class="font-bold">Challenging for Global collaboration</span></p> <p class="small-type-2">Chikako Masuda, Head of Intelligence Research & Design community manager, Digital Agency</p>
 
 						<p><span class="font-bold">Designing Data dashboard for user centered policy making</span></p> <p class="small-type-2">Arata Shimizu, Product Designer, Digital Agency</p>
 				
-				<h3 style="margin-top: 60px;">UTC 01:00&nbsp;•&nbsp;Taiwan 🇹🇼</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T01:00:00+00:00">UTC 01:00</time>&nbsp;•&nbsp;Taiwan 🇹🇼</h3>
 						<p><span class="font-bold">Design System as Public Infrastructure</span></p> <p class="small-type-2">Mu-An Chiou, Head of Design Systems, PDIS</p>
 
 						<p><span class="font-bold">Improving general service accessibility through focusing on behavior and awareness</span></p> <p class="small-type-2">Jedi Lin, Head of Accessibility Design, PDIS</p>
 
-				<h3 style="margin-top: 60px;">UTC 02:00&nbsp;•&nbsp;Singapore 🇸🇬</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T02:00:00+00:00">UTC 02:00</time>&nbsp;•&nbsp;Singapore 🇸🇬</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Hefen Wong, Director, Customer Systems and Experience, Ministry of Manpower Singapore</p>
 
-				<h3 style="margin-top: 60px;">UTC 04:00&nbsp;•&nbsp;Indonesia 🇮🇩</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T04:00:00+00:00">UTC 04:00</time>&nbsp;•&nbsp;Indonesia 🇮🇩</h3>
 						<p><span class="font-bold">Orchestrating Public Service Innovations with Sapawarga through User-Centered Design</span><br>Embark on a captivating exploration of West Java’s digital transformation journey led by Jabar Digital Service (JDS) and its flagship product, Sapawarga – Jabar Super Apps. Unveil how Sapawarga integrates public services, digital transactions, and public aspiration channels, driven by the core value of User-Centered Design (UCD) to elevate public services.</p> <p class="small-type-2">Ashri Nooraida Permana, UX Researcher Lead, Jabar Digital Service</p>
 
-				<h3 style="margin-top: 60px;">UTC 06:00&nbsp;•&nbsp;Georgia 🇬🇪</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T06:00:00+00:00">UTC 06:00</time>&nbsp;•&nbsp;Georgia 🇬🇪</h3>
 						<p><span class="font-bold">Shifting focus from central to local government level</span><br>An overview of public sector innovation work supported by the United Nations Development Programme (UNDP) in Georgia</p> <p class="small-type-2">Khatuna Sandroshvili, Innovation Lead, UNDP Georgia</p>
 
 						<p><span class="font-bold">City Experimentation in the City of Rustavi</span></p> <p class="small-type-2">Revaz Barbakadze, Head of Rustavi City Innovation Hub</p>
 				
-				<h3 style="margin-top: 60px;">UTC 07:00&nbsp;•&nbsp;Rwanda 🇷🇼</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T07:00:00+00:00">UTC 07:00</time>&nbsp;•&nbsp;Rwanda 🇷🇼</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Estelle Indriets, Senior Manager, Policy & Partnerships, IremboGov</p>
 
-				<h3 style="margin-top: 60px;">UTC 08:00&nbsp;•&nbsp;Finland 🇫🇮</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T08:00:00+00:00">UTC 08:00</time>&nbsp;•&nbsp;Finland 🇫🇮</h3>
 						<p><span class="font-bold">Introduction to design in government in Finland</span><br>our journey with photos</p> <p class="small-type-2">Anni Leppänen, Board of Finnish Government design community Julkis-muotoilijat</p>
 
 						<p><span class="font-bold">From phenomena to impact - how we leverage human-centred design to inform our strategy work</span><br>Case study talk</p> <p class="small-type-2">Janne Mattila, Lead Service Designer & Anni Ojajärvi, Senior Lead, Kela (Finnish Social insurance institution) – Innovation and growth unit</p>
 
 						<p><span class="font-bold">Duet: How to (and should we) integrate design into organisational structures and core functions </span><br>struggles, critical thoughts and experiences from design leads</p> <p class="small-type-2">Anni Leppänen, Lead Service Designer, City of Helsinki & Elina Piskonen, Customer Experience Manager, Finnish National Agency for Education</p>
 				
-				<h3 style="margin-top: 60px;">UTC 09:00&nbsp;•&nbsp;Ukraine 🇺🇦</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T09:00:00+00:00">UTC 09:00</time>&nbsp;•&nbsp;Ukraine 🇺🇦</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Mstyslav Banik, Head of Digital Services Development, Ministry of Digital Transformation</p>
 
-				<h3 style="margin-top: 60px;">UTC 10:00&nbsp;•&nbsp;Sweden 🇸🇪</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T10:00:00+00:00">UTC 10:00</time>&nbsp;•&nbsp;Sweden 🇸🇪</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Ezequiel Gliksman Montenegro, Strategic Change Leader within Digitalization, City of Malmö</p>
 
-				<h3 style="margin-top: 60px;">UTC 11:00&nbsp;•&nbsp;Switzerland 🇨🇭</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T11:00:00+00:00">UTC 11:00</time>&nbsp;•&nbsp;Switzerland 🇨🇭</h3>
 						<p><span class="font-bold">Car sharing to reach climate goals</span><br>One of the measures to achieve the City of Zurich’s net zero targets is to increase sharing and reduce the size of its internal car fleet. However, today most departments are not yet equipped to implement car sharing. We will show how we developed a solution, piloted it and what data and insights we brought to light alongside it.</p> <p class="small-type-2">Zahida Huber, Service Designer & Luis Schüller, Project Lead/Business Analyst, City of Zürich</p>
 
-				<h3 style="margin-top: 60px;">UTC 12:00&nbsp;•&nbsp;Italy 🇮🇹</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T12:00:00+00:00">UTC 12:00</time>&nbsp;•&nbsp;Italy 🇮🇹</h3>
 						<p><span class="font-bold">Sharing data stories</span><br>public data visualization tools cross projects and departments</p> <p class="small-type-2">Stefania Guerra, UI/UX Designer Expert, Dipartimento per la Trasformazione Digitale (Department for Digital Transformation)</p>
 
 						<p><span class="font-bold">Governing tools in the open</span><br>a design system by 22.000 public entities</p> <p class="small-type-2">Daniela Iozzo, Content Designer, Designers Italia</p>
 
 						<p><span class="font-bold">Evolving service delivery</span><br>harmonizing multiple layers of government in 1 mobile app</p> <p class="small-type-2">Agata Brilli, Senior Service Designer, pagoPA</p>
 
-				<h3 style="margin-top: 60px;">UTC 13:00&nbsp;•&nbsp;Ireland 🇮🇪</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T13:00:00+00:00">UTC 13:00</time>&nbsp;•&nbsp;Ireland 🇮🇪</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Colin Flaherty, Public Service Transformation Delivery Unit, Department of Public Expenditure, National Development Plan Delivery and Reform</p>
 				
-				<h3 style="margin-top: 60px;">UTC 14:00&nbsp;•&nbsp;Germany 🇩🇪</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T14:00:00+00:00">UTC 14:00</time>&nbsp;•&nbsp;Germany 🇩🇪</h3>
 
 						<p><span class="font-bold">How might we enable public service professionals to use plain language?</span><br>In Germany, the public sector is often criticized for its bureaucratic language, evident on websites, forms, and official letters, making public administration seem unapproachable, inaccessible, and overly complex. The lack of design in both layout and content results in negative experiences for citizens and unnecessary challenges for staff.<br><br>The City of Cologne wants to provide better public services and reduce the everyday challenges for public sector professionals by establishing plain language as the standard. In response, the city’s innovation lab has introduced a new initiative: the Form Labs. In a short period of time, an interdisciplinary team uses human-centred approaches.<br><br>Simone and Janina will offer insights into their overarching approach and showcase how they utilize their acquired knowledge to enhance the adoption of plain language within various departments.</p> <p class="small-type-2">Janina Rösch, Innovation Manager, City of Cologne & Simone Carrier, Simone Carrier, Senior Manager & Service Designer, PwC</p>
 
@@ -254,17 +272,17 @@
 
 						<p><span class="font-bold">Digital-ready policy enabled by service design – and better public services through digital-ready policy</span><br>Good services and experiences with government need good laws. In the past, too many laws have been written narrowly, prescribing solutions for the present – making them unfit for an ever-evolving digital landscape. The Federal Ministry of the Interior and DigitalService have been working on a digital check for new laws. Guided by five core principles, policy drafters and legists are supported in making their laws future-proof and enabling good services from the start.</p> <p class="small-type-2">Sabrina Feuerherd, Senior Service Designer, DigitalService</p>
 				
-				<h3 style="margin-top: 60px;">UTC 15:00&nbsp;•&nbsp;France 🇫🇷</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T15:00:00+00:00">UTC 15:00</time>&nbsp;•&nbsp;France 🇫🇷</h3>
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Marine Boudeau, Deputy Director of Projects and Digital Services, Social Ministries Digital Department</p>
 				
-				<h3 style="margin-top: 60px;">UTC 16:00&nbsp;•&nbsp;United Kingdom&sup1; 🇬🇧</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T16:00:00+00:00">UTC 16:00</time>&nbsp;•&nbsp;United Kingdom&sup1; 🇬🇧</h3>
 						<p><span class="font-bold">A new page in government design innovation</span><br>All too often, design innovation in government is conflated with digital innovation. As a result, some of the most vulnerable groups that may not have access to digital services are stuck with outdated and more complicated paper-based services. Aiming for parity between digital and non-digital users, this talk presents reflections on the design of the first end-to-end paper-based reformed appeal service for people held in UK Immigration Removal Centres and prisons.</p> <p class="small-type-2">Yemima Safra, Senior User Researcher, Transform/HM Courts & Tribunals Service</p>
 
 						<p><span class="font-bold">A bold new look for the GOV.UK homepage</span><br>The GOV.UK homepage was recently redesigned. In this talk, the designers and the comms manager from the team will talk about how they approached the work and reflected on how to deliver impactful, design-led work in the public sector.</p> <p class="small-type-2">Kuba Bartwicki, Lead Designer, Laura Stevens, Communications Manager & Monica Crusellas, Senior Interaction Designer, Government Digital Service</p>
 
 						<p class="small-type-2">&sup1; The United Kingdom (England, Northern Ireland, Scotland, Wales) has a devolved government. While some services are run by the UK Government such as tax, immigration, and national security, Northern Ireland, Scotland, and Wales have differing devolved powers for some areas such as education and health and social services.</p>
 								
-				<h3 style="margin-top: 60px;">UTC 17:00&nbsp;•&nbsp;Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T17:00:00+00:00">UTC 17:00</time>&nbsp;•&nbsp;Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h3>
 						<p><span class="font-bold">Designing common platforms – the true effort of building solid foundations</span><br>A designer experience of building common platforms, including cloud, payments and identity services. Walking through our collaborative approach across five core service moments, with lessons learned around the pace and protocol of creating critical national infrastructure in the Scottish Government.</p> <p class="small-type-2">Fiona MacLellan, Service Design Lead, Scottish Government</p>
 
 						<p><span class="font-bold">Implementing Service Design in Local Government</span><br>A talk about implementing the Scottish Approach to Service Design (SAtSD) in local government. It will cover what our community has done so far and how we concluded that one solution does not fit all. It will explain why and how we are using the maturity assessment matrix from the SAtSD to guide our next steps.</p> <p class="small-type-2">Synnøve Frøiland, Service Designer, Digital Office for Scottish Local Government</p>
@@ -272,7 +290,7 @@
 						<p><span class="font-bold">The changing role of a service designer – Arm’s length co-design</span><br>The story of creating conditions, facilitating spaces and stepping back to enable people with lived experience and staff to co-design national services.</p> <p class="small-type-2">Anna Henderson, Service Design Lead, Scottish Government & Hazel Parkinson, Strategic Policy Manager – Getting It Right For Everyone, Scottish Government</p>
 				
 				
-				<h3 style="margin-top: 60px;">UTC 18:00&nbsp;•&nbsp;Iceland 🇮🇸</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T18:00:00+00:00">UTC 18:00</time>&nbsp;•&nbsp;Iceland 🇮🇸</h3>
 						<p><span class="font-bold">101 Reykjavík</span><br>Scale and organisation of Reykjavík City and its digital journey.</p>
 
 						<p><span class="font-bold">Hot tub talks</span><br>A small story about the importance of talking to users in a nice setting.</p>
@@ -280,15 +298,15 @@
 						<p><span class="font-bold">The smallest victories</span><br>Examples of hard-earned victories that might seem meaningless to others.</p> <p class="small-type-2">Búi Bjarmar Aðalsteinsson, Digital Leader, Department of service and innovation, Reykjavík City</p>
 				
 				
-				<h3 style="margin-top: 60px;">UTC 19:00&nbsp;•&nbsp;Mexico 🇲🇽</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T19:00:00+00:00">UTC 19:00</time>&nbsp;•&nbsp;Mexico 🇲🇽</h3>
 
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Sofía Bosch Gómez, Assistant Professor, Northeastern University</p>
 
-				<h3 style="margin-top: 60px;">UTC 20:00&nbsp;•&nbsp;Brazil 🇧🇷 & Chile 🇨🇱</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T20:00:00+00:00">UTC 20:00</time>&nbsp;•&nbsp;Brazil 🇧🇷 & Chile 🇨🇱</h3>
 
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Nicolás Rebolledo Bustamante, Design & Strategy Director, UNIT</p>
 
-				<h3 style="margin-top: 60px;">UTC 21:00&nbsp;•&nbsp;Canada 🇨🇦</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T21:00:00+00:00">UTC 21:00</time>&nbsp;•&nbsp;Canada 🇨🇦</h3>
 
 						<p><span class="font-bold">Hopeful conversations: Service design during the climate crisis</span><br>What makes you hopeful for the future? Exploring the potential of optimistic dialogue in designing sustainable services and inspiring hope for a better future.</p> <p class="small-type-2">Sarah Gray, Design Lead, British Columbia Public Service</p>
 
@@ -296,7 +314,7 @@
 
 						<p><span class="font-bold">The disillusioned civic designer</span><br>“As a designer in the public service, I’m exhausted. And it’s okay if you are too.” — Why self and collective care as a practice is essential for designers in government.</p> <p class="small-type-2">Joanne Li, Head of UX, Canada School of Public Service (CSPS) / École de la fonction publique du Canada (EFPC)</p>
 
-				<h3 style="margin-top: 60px;">UTC 22:00&nbsp;•&nbsp;Chile 🇨🇱 & Peru 🇵🇪</h3>
+				<h3 style="margin-top: 60px;"><time datetime="2023-11-29T22:00:00+00:00">UTC 22:00</time>&nbsp;•&nbsp;Chile 🇨🇱 & Peru 🇵🇪</h3>
 
 						<p><span class="font-bold">(Title and description to follow)</span></p> <p class="small-type-2">Beatriz Hasbún, Learning Experiences Designer, UNIT</p>
 
