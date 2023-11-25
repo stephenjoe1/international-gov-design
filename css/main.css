@@ -1031,4 +1031,19 @@ h2 {
 }
 
 
+.btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Helvetica neue, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #6B4DC4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
+.btn:hover {
+  background: #5a41a3;
+  text-decoration: none;
+}
