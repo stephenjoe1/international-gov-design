@@ -248,6 +248,11 @@ h2 .small-h2-class {
 	padding-bottom: 30px;
 }
 
+.section-body-lightblue p {
+	color: #0024C7;
+}
+
+
 .section-body-lightblue a {
 	color: #0024C7;
 }
@@ -340,7 +345,7 @@ h2 .small-h2-class {
 }
 
 .section-body-finlandblue a {
-	color: #000;
+	color: #fff;
 }
 
 .section-body-finlandblue a:active {
@@ -348,7 +353,7 @@ h2 .small-h2-class {
 }
 
 .section-body-finlandblue h1 {
-	color: #000;
+	color: #fff;
 }
 
 .section-body-finlandblue h1 a {
