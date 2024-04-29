@@ -252,6 +252,14 @@ h2 .small-h2-class {
 	color: #0024C7;
 }
 
+.section-body-lightblue  .big-date {
+	color: #fff;
+	font-size: 72px;
+	line-height: 80px;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	font-family: Dia Black, Helvetica neue, Helvetica, sans-serif;
+}
 
 .section-body-lightblue a {
 	color: #0024C7;
@@ -366,7 +374,7 @@ h2 .small-h2-class {
 
 
 .section-body-finlandblue h2 {
-	color: #000;
+	color: #fff;
 }
 
 
