@@ -237,6 +237,26 @@ h2 .small-h2-class {
 }
 
 
+
+.section-body-lightblue {
+	background-color: #B4C3FF;
+	margin-top: 0px;
+	color: #0024C7;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.section-body-lightblue a {
+	color: #0024C7;
+}
+
+.section-body-lightblue a:active {
+	background-color: yellow;
+}
+
+
 .section-body-blue {
 	background-color: #0d66b0;
 	margin-top: 0px;
@@ -306,6 +326,45 @@ h2 .small-h2-class {
 .section-body-purple h2 {
 	color: #fff;
 }
+
+
+
+ .section-body-finlandblue {
+	background-color: #0024C7;
+	margin-top: 0px;
+	color: #0024C7;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.section-body-finlandblue a {
+	color: #000;
+}
+
+.section-body-finlandblue a:active {
+	background-color: yellow;
+}
+
+.section-body-finlandblue h1 {
+	color: #000;
+}
+
+.section-body-finlandblue h1 a {
+	text-decoration: none;
+}
+
+.section-body-finlandblue h1 a:hover {
+	color: black;
+}
+
+
+.section-body-finlandblue h2 {
+	color: #000;
+}
+
+
 
 .section-body-green {
 	background-color: #47f5a7;
