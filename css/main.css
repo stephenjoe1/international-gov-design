@@ -1122,3 +1122,23 @@ h2 {
   background: #e5e1f2;
   text-decoration: none;
 }
+
+
+.btn-helsinki {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Haas Grotesk, Helvetica Neue, Neue Helvetica, Helvetica, sans-serif;
+  color: #0024C7 !important;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  margin: 30px 0px 35px 0px !important;
+  border: solid #0024C7 2px;
+  text-decoration: none !important;
+}
+
+.btn-helsinki:hover {
+  background: #B4C3FF;
+  text-decoration: none;
+}
