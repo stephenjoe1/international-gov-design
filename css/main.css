@@ -802,6 +802,14 @@ h2 .small-h2-class {
   padding-left: 5px;
 }
 
+.highlight-blue {
+  background-color: #B4C3FF;
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 iframe {
     display:block;
     position: relative;
