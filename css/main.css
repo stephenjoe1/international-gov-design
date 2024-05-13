@@ -365,6 +365,11 @@ h2 .small-h2-class {
 	padding-bottom: 30px;
 }
 
+.section-body-finlandblue p {
+	color: #fff;
+	font-family: Neue Haas, Neue Haas Grotesk, Neue Helvetica, Helvetica Neue, Helvetica, sans-serif;
+}
+
 .section-body-finlandblue a {
 	color: #fff;
 }
